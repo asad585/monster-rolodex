@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+body{
+  background: rgb(53,124,126);
+  background: linear-gradient(90deg, rgba(53,124,126,1) 0%, rgba(11,28,79,1) 100%);  
+}
+.App {
+  text-align: center;
+}
+.App h1{
+  font-family: 'Orbitron', sans-serif;
+  font-size:50px;
+  color: #fff;
+}
+.max-img{
+  max-width: 100%; 
+}
+.kity-posts-outer *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.kity-posts-outer{
+  max-width: 1220px;
+  margin: 40px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.kity-posts{
+  background-color: #a3d8d9;
+  padding: 30px 15px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  margin: 10px;
+  max-width: 250px;
+  vertical-align: top;
+  h2{
+    padding-top: 5px; 
+    padding-bottom: 20px; 
+    font-size: 18px;
+  }
+  a.kity-email{
+    text-decoration: none;
+    color: #000;
+    margin-top: auto;  
+  }
+}
+
+
