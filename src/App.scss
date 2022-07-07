@@ -2,6 +2,7 @@
 body{
   background: rgb(53,124,126);
   background: linear-gradient(90deg, rgba(53,124,126,1) 0%, rgba(11,28,79,1) 100%);  
+  font-family: sans-serif;
 }
 .App {
   text-align: center;
@@ -40,10 +41,11 @@ body{
     padding-bottom: 20px; 
     font-size: 18px;
   }
-  a.kity-email{
+  p.kity-email{
     text-decoration: none;
     color: #000;
-    margin-top: auto;  
+    margin-top: auto; 
+    font-size:14px;
   }
 }
 
